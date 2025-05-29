@@ -341,6 +341,28 @@ a:hover {
   margin-top: 1.5rem;
 }
 
+.subscribe-btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 1px;
+  border: none;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.subscribe-btn:hover {
+  text-decoration: none;
+  background-color: #ffd800;
+  border: 3px solid #000;
+  color: #000;
+}
+
 .contact {
   background-color: #000;
   color: #fff;
@@ -493,23 +515,6 @@ a:hover {
   100% {
     clip: rect(66px, 9999px, 25px, 0);
   }
-}
-
-.reveal-btn {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.reveal-btn:hover {
-  background-color: #ff5500;
-  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
